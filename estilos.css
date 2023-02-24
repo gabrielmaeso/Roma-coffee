@@ -97,7 +97,7 @@ html{
     backdrop-filter: blur(10px);
     top: 100%;
     z-index: 1;
-    background-color: #8b7e7b;
+    background-color: transparent 1.0;
     padding: 20px;
     min-height: 400px;
     min-width: 400px;
@@ -442,10 +442,11 @@ td{
         display: none;
     }
 
+
     .cafes{
         flex-direction: column;
         padding: 0px 30px;
-        text-align: center;
+        text-align:center;
     }
 
     .recetas-1{
